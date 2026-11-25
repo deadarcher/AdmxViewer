@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic. The uppercase .ADMX extension is the point: Dell ships "Dell Command Update.ADMX", and the ADML has to be
+     found case-insensitively the way RFF's C# parser finds it on Windows. -->
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces><target prefix="caseprobe" namespace="Rff.Fixtures.CaseProbe" /></policyNamespaces>
+  <resources minRequiredRevision="1.0" />
+  <categories><category name="CaseProbe" displayName="$(string.Cat)" /></categories>
+  <policies>
+    <policy name="CaseProbeOn" class="Machine" displayName="$(string.On)" explainText="$(string.On_Help)" key="Software\Policies\RffFixtures\CaseProbe" valueName="On">
+      <parentCategory ref="CaseProbe" />
+      <enabledValue><decimal value="1" /></enabledValue>
+      <disabledValue><decimal value="0" /></disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

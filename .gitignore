@@ -1,0 +1,12 @@
+# deps and build output
+node_modules/
+dist/
+
+# local editor and tool config
+.claude/
+.vscode/
+
+# misc
+*.log
+.DS_Store
+.env

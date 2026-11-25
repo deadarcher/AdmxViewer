@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>Case probe</displayName>
+  <description>Synthetic fixture.</description>
+  <resources>
+    <stringTable>
+      <string id="Cat">Case probe</string>
+      <string id="On">Case probe resolved from the ADML</string>
+      <string id="On_Help">Shows the ADML was found for an uppercase .ADMX file name.</string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>

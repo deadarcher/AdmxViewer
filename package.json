@@ -1,0 +1,21 @@
+{
+  "name": "admx-viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The engine behind ADMX Viewer (getrff.com/admx/): parse ADMX/ADML files, work out exactly what each Group Policy state writes to the registry, export .reg files and PowerShell scripts, and build your own ADMX. Runs in the browser or Node.",
+  "license": "MIT",
+  "homepage": "https://getrff.com/admx/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deadarcher/AdmxViewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deadarcher/AdmxViewer/issues"
+  },
+  "scripts": {
+    "check": "node scripts/check-admx.mjs && node scripts/check-admx-authoring.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
